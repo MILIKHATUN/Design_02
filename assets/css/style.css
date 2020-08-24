@@ -1,0 +1,114 @@
+#navbar{
+    width: 100%;
+  position: fixed;
+}
+#navbar a{
+    color: #fff;
+    margin-left: 10px;
+
+}
+.navbar-brand{
+    font-size: 40px;
+}
+#bennar{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    height: 600px;
+    background: url(../img/banner.jpg);
+}
+.icon i{
+    background: rgb(218, 213, 213);
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: rgb(61, 58, 52);
+    margin-bottom: 30px;
+}
+button{
+    border-radius: 50px;
+    background: rgb(42, 190, 22);
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    margin-top: 20px ;
+}
+#img-1{
+    background: rgb(243, 241, 241);
+}
+.text{
+    margin-top: 80px;
+    line-height: 30px;
+}
+.text h2{
+    padding: 20px;
+}
+.text p{
+    padding: 20px;
+}
+#services{
+    background: rgb(243, 241, 241);
+}
+#services i{
+    background: #fff;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(5,226,160);
+}
+#testimonial{
+    background: url(../img/testimonial-bg.jpg);
+    height: 500px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+#pricing{
+    background: rgb(243, 241, 241);
+}
+.card-top{
+    font-size: 50px;
+    color: rgb(5,226,160);;
+}
+.card-footer{
+    background: rgb(5,226,160);
+    
+}
+#testmonial{
+    background: url(../img/testimonial.jpg);
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    /* line-height: 1px; */
+    /* flex-direction: column; */
+    
+}
+#testimonial p{
+    font-size: 30px;
+    padding: 0px;
+}
+
+footer .navbar-brand img{
+    object-fit: contain;
+    width: 30px;
+    margin: 5px;
+    margin-right: 10px;
+    display: block;
+}
+footer .navbar-brand p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
